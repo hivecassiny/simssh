@@ -5,12 +5,13 @@
 # 作者: 自动生成
 
 # 配置变量
+APPVERSION="v9.1"
 PROGRAM_NAME="simsshclient"
 SERVICE_NAME="simsshclient"
 INSTALL_DIR="/opt/simsshclient"
 BIN_PATH="$INSTALL_DIR/simsshclient"
 SERVICE_FILE="/etc/systemd/system/$SERVICE_NAME.service"
-DOWNLOAD_URL="https://github.com/hivecassiny/simssh/releases/download/v9.1/simsshclient_linux_amd64.tar.gz"
+DOWNLOAD_URL="https://github.com/hivecassiny/simssh/releases/download/$APPVERSION/simsshclient_linux_amd64.tar.gz"
 TEMP_DIR="/tmp/simsshclient_install"
 LOG_FILE="/var/log/simsshclient_install.log"
 
@@ -338,7 +339,7 @@ main_install() {
 show_menu() {
     clear
     print_color "========================================" "$BLUE"
-    print_color "    simsshclient 安装管理程序" "$GREEN"
+    print_color "    simsshclient 安装管理程序" "$GREEN" "$APPVERSION"
     print_color "========================================" "$BLUE"
     echo
     print_color "请选择操作:" "$BLUE"
