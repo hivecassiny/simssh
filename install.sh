@@ -5,6 +5,7 @@
 # 作者: 自动生成
 
 # 配置变量
+CHANGEFILEINFO="[*]"
 APPVERSION="v9.1"
 PROGRAM_NAME="simsshclient"
 SERVICE_NAME="simsshclient"
@@ -340,6 +341,7 @@ show_menu() {
     clear
     print_color "========================================" "$BLUE"
     print_color "    simsshclient 安装管理程序" "$GREEN" "$APPVERSION"
+    print_color "$CHANGEFILEINFO"
     print_color "========================================" "$BLUE"
     echo
     print_color "请选择操作:" "$BLUE"
