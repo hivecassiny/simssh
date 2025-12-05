@@ -10,7 +10,7 @@ SERVICE_NAME="simsshclient"
 INSTALL_DIR="/opt/simsshclient"
 BIN_PATH="$INSTALL_DIR/simsshclient"
 SERVICE_FILE="/etc/systemd/system/$SERVICE_NAME.service"
-DOWNLOAD_URL="https://github.com/hivecassiny/simssh/releases/download/v1.0.0/simsshclient_linux_amd64.tar.gz"
+DOWNLOAD_URL="https://github.com/hivecassiny/simssh/releases/download/v9.1/simsshclient_linux_amd64.tar.gz"
 TEMP_DIR="/tmp/simsshclient_install"
 LOG_FILE="/var/log/simsshclient_install.log"
 
