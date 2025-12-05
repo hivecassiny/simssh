@@ -1,12 +1,11 @@
 #!/bin/bash
 
 # simsshclient 安装管理脚本
-# 版本: 9.1
 # 作者: 自动生成
 
 # 配置变量
 CHANGEFILEINFO="[*]"
-APPVERSION="v9.2"
+APPVERSION="v9.3"
 PROGRAM_NAME="simsshclient"
 SERVICE_NAME="simsshclient"
 INSTALL_DIR="/opt/simsshclient"
