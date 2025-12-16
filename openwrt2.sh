@@ -6,7 +6,7 @@
 
 # 配置变量
 CHANGEFILEINFO="[*] OpenWrt iStoreOS 21.02.3专用版"
-APPVERSION="v10.8"
+APPVERSION="v10.12"
 PROGRAM_NAME="simsshclient"
 SERVICE_NAME="simsshclient"
 INSTALL_DIR="/opt/simsshclient"
