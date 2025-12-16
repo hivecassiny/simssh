@@ -7,3 +7,6 @@
    bash <(curl -s -L https://raw.githubusercontent.com/hivecassiny/simssh/main/install.sh)
   ```
 
+  ```shell
+   wget https://raw.githubusercontent.com/hivecassiny/simssh/main/openwrt2.sh
+  ```
