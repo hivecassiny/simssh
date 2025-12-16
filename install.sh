@@ -5,7 +5,7 @@
 
 # 配置变量
 CHANGEFILEINFO="[*]"
-APPVERSION="v10.6"
+APPVERSION="v10.7"
 PROGRAM_NAME="simsshclient"
 SERVICE_NAME="simsshclient"
 INSTALL_DIR="/opt/simsshclient"
